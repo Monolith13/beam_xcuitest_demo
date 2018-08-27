@@ -1,5 +1,6 @@
 # About
-This project contain iOS native UI-test for [Beam](https://beamreddit.com) app.
+This project contain iOS native UI-test for [Beam](https://beamreddit.com) app. Test based on XCUITest framework (engine) + XCfit (BDD) + Allure report (report).   
+
 
 ## Requirements
 
@@ -11,9 +12,9 @@ This project contain iOS native UI-test for [Beam](https://beamreddit.com) app.
 
 ## Preparation
 
-* Install xcfit with this command
+* Install xcfit with this command:
 
-	sudo gem install xcfit
+	> sudo gem install xcfit
 
 * Install carthage from homebrew
 * Install allure report from homebrew
@@ -28,7 +29,7 @@ Local run tests
     # First - manually boot iOS simulator e.g. iPhone 8 Plus 11.4
     cd ~/beam_xcuitest_demo
     xcodebuild -scheme "Xcode9-XCTest" -destination 'platform=iOS Simulator,name=iPhone 8 Plus,OS=11.4' build test CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
-
+    allure serve ~/Library/Developer/Xcode/DerivedData/Beam**/Logs/Test
 
 Run tests from CI
     

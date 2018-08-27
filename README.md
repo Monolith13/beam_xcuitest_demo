@@ -15,7 +15,7 @@ This project contain iOS native UI-test for [Beam](https://beamreddit.com) app.
 * Install allure report from homebrew
 * Install bundler gem and gems from bundle
 * Install swift dependencies via carthage
-* Edit SampleConfig.swift with the required values and rename it to Config.swift (offical github API doc of reddit)
+* Edit SampleConfig.swift with the required values and rename it to Config.swift ([API doc](https://github.com/reddit-archive/reddit/wiki/OAuth2) of reddit)
 
 ## Run tests
 

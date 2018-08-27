@@ -45,8 +45,12 @@ playground.xcworkspace
 # We recommend against adding the Pods directory to your .gitignore. However
 # you should judge for yourself, the pros and cons are mentioned at:
 # https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
-#
-# Pods/
+
+Pods/
+/Beam/Podfile.lock
+/Beam/Pods/
+/Beam/screenshots/
+/Beam/Carthage
 
 # Carthage
 #
@@ -54,6 +58,7 @@ playground.xcworkspace
 # Carthage/Checkouts
 
 Carthage/Build
+Cartfile.resolved
 
 # fastlane
 #
@@ -71,3 +76,4 @@ fastlane/test_output
 
 Gemfile.lock
 .idea/
+Confing.swift

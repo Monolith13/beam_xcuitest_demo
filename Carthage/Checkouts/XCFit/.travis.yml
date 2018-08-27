@@ -1,0 +1,14 @@
+language: objective-c
+osx_image: xcode9
+cache:
+  directories:
+  - XCFit-Example/Carthage
+
+before_install:
+  - gem install fastlane --no-ri --no-rdoc --no-document
+
+install: true
+script:
+  - cd XCFit-Example
+  - carthage bootstrap --platform iOS
+  - fastlane scan -s XCFit-Example

@@ -1,0 +1,17 @@
+machine:
+  xcode:
+    version: "9.0"
+
+dependencies:
+  pre:
+    - gem install fastlane --no-ri --no-rdoc --no-document
+    - brew install carthage
+    - cd XCFit-Example && carthage bootstrap --platform iOS
+
+  cache_directories:
+    - "XCFit-Example/Carthage"
+
+test:
+  override:
+    - swift --version
+    - cd XCFit-Example && fastlane scan -s XCFit-Example

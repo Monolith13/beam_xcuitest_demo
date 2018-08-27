@@ -1,0 +1,144 @@
+#!/usr/bin/env ruby
+
+require 'fileutils'
+require 'tempfile'
+
+VERSION = "7.0.0"
+
+@root_dir = File.expand_path('~')
+@root_lib_dir = File.join(@root_dir, 'Library')
+@root_developer_dir = File.join(@root_lib_dir, 'Developer')
+@root_xcode_dir = File.join(@root_developer_dir, 'Xcode')
+@root_template_dir = File.join(@root_xcode_dir, 'Templates')
+@root_xcfit_dir = File.join(@root_template_dir, 'XCFit')
+@root_gherkin_dir = File.join(@root_template_dir, 'Gherkin')
+# @source_dir = File.join(File.dirname(__FILE__), '..', 'XCFit_Templates')
+# @source_xcfit_dir = File.join(@source_dir, 'XCFit')
+# @source_gherkin_dir = File.join(@source_dir, 'Gherkin')
+
+puts "Welcome to XCFit: Full Stack BDD framework for iOS app"
+puts "==================XXXXXXXX==========================="
+
+
+def clone_xcfit
+  # system("cd /tmp")
+  system("cd /tmp  && curl -sL https://github.com/Shashikant86/XCFit/archive/#{VERSION}.tar.gz | tar xz")
+  puts "*******======= Downloading XCFit Templates for the Xcode =============***"
+  @src_template_dir = "/tmp/XCFit-#{VERSION}/XCFit_Templates"
+  @xcfit_template_dir = "/tmp/XCFit-#{VERSION}/XCFit_Templates/XCFit"
+  @gherkin_template_dir = "/tmp/XCFit-#{VERSION}/XCFit_Templates/Gherkin"
+  @fastlane_template_dir = "/tmp/XCFit-#{VERSION}/Fastlane"
+end
+
+def clean_xcfit
+  system("rm -rf /tmp/XCFit-#{VERSION}/")
+end
+
+def setup_xcode_templates
+  if File.exist?(@root_xcfit_dir)
+    puts "==================XXXXXXXX==========================="
+    puts 'There is already XCFit directory in Xcode Templates. Looks like you are trying Fitnesse Templates '
+    puts 'Templates are being installed at ~/Library/Developer/Xcode/Templates/XCFit directory'
+    puts "==================XXXXXXXX==========================="
+  end
+  clone_xcfit
+  puts "==================XXXXXXXX==========================="
+  puts 'Creating XCode Template for XCFit'
+  puts 'This Template will allow you create Cucumberish and Fitnesse targets'
+  puts "==================XXXXXXXX==========================="
+  FileUtils.cp_r(@src_template_dir, @root_template_dir)
+  clean_xcfit
+  puts 'Now Your Xcode will have XCFIT iOS and macOS tagets for Cucumberish and Fitnesse'
+  puts "==================XXXXXXXX==========================="
+  puts 'File -> New -->Target-->XCFit'
+  puts 'You wont need to restart Xcode but do so if nesessary!'
+  puts " ***************** Enjoy XCFit *****************"
+end
+
+def setup_xcfit_podfile
+   puts '=======Creating Template Podfile for the XCFit project'
+   puts '=======You need to replace targets with your project targets and comment unwanted targets ========'
+   system("curl -s -O https://raw.githubusercontent.com/Shashikant86/XCFit/master/Cocoapods/Podfile")
+   puts "Podfile successfully created in the current working directory here at #{Dir.getwd}/Podfile"
+end
+
+def setup_xcfit_fastfile
+   puts '=======Creating Template Podfile for the XCFit project'
+   puts '=======You need to replace schemes and other varibales as required ========'
+   clone_xcfit
+   puts "==================XXXXXXXX==========================="
+   puts "==================XXXXXXXX==========================="
+   FileUtils.cp_r(@fastlane_template_dir, FileUtils.pwd())
+   clean_xcfit
+end
+
+def print_usage
+  puts <<EOF
+
+  Usage: xcfit <command-name>
+
+  <command-name> can be one of
+    setup_xcode_templates
+      generate a Xcode Templates for the XCUI, Fitnesse and Cucumberish
+    setup_xcfit_podfile
+      Creates template Podfile for the XCFit project covering all targets.
+    setup_xcfit_fastfile
+      Creates template Fastfile to run tests with fastlane.
+    version
+      prints the XCFit version
+    help
+      prints more detailed help information.
+
+
+  <options> can be
+     -v, --verbose   Turns on verbose logging
+EOF
+end
+
+def print_help
+  puts <<EOF
+
+  Usage: xcfit <command-name>
+
+  <command-name> can be one of
+    help
+    setup_xcode_templates
+    setup_xcfit_podfile
+    setup_xcfit_fastfile
+
+    version
+
+    Commands:
+      help : prints more detailed help information.
+
+      setup_xcode_templates  : Generate a Xcode Target and File Templates for the XCUI, Fitnesse and Cucumberish
+
+      setup_xcfit_podfile : Creates template Podfile for the XCFit project covering all targets.
+
+      setup_xcfit_fastfile : Creates template Fastfile to run tests with fastlane.
+
+      version : prints the XCFit version
+
+  <Options>
+      -v, --verbose  Turns on verbose logging
+EOF
+end
+
+if ARGV.length == 0
+  print_usage
+else
+  cmd = ARGV.shift
+  if cmd == 'help'
+    print_help
+  elsif cmd == 'setup_xcode_templates'
+    setup_xcode_templates
+  elsif cmd == 'setup_xcfit_podfile'
+    setup_xcfit_podfile
+  elsif cmd == 'setup_xcfit_fastfile'
+    setup_xcfit_fastfile
+  elsif cmd == 'version'
+    puts "#{VERSION}"
+  else
+    print_usage
+  end
+end

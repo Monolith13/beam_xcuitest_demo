@@ -77,3 +77,6 @@ fastlane/test_output
 Gemfile.lock
 .idea/
 Confing.swift
+log/
+report/
+environment.xml

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<qa:environment xmlns:qa="urn:model.commons.qatools.yandex.ru">
+    <name>Allure reporter</name>
+    <parameter>
+      <name>Mobile device(s)</name>
+      <key>Device name</key>
+      <value>none</value>
+    </parameter>
+    <parameter>
+        <name>OS</name>
+        <key>MacOS version</key>
+        <value>0.0</value>
+    </parameter>
+    <parameter>
+        <name>XCode</name>
+        <key>XCode version</key>
+        <value>0.0</value>
+    </parameter>
+    <parameter>
+        <name>Ruby</name>
+        <key>Ruby version</key>
+        <value>0.0</value>
+    </parameter>
+    <parameter>
+        <name>Java</name>
+        <key>Java version</key>
+        <value>0.0</value>
+    </parameter>
+</qa:environment>

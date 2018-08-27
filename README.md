@@ -11,12 +11,23 @@ This project contain iOS native UI-test for [Beam](https://beamreddit.com) app.
 
 ## Preparation
 
-* Install carthage
-* Install allure report
-* Install bundler gem
-* Install swift dependencies
-* Edit SampleConfig.swift with the required values and rename it to Config.swift
+* Install carthage from homebrew
+* Install allure report from homebrew
+* Install bundler gem and gems from bundle
+* Install swift dependencies via carthage
+* Edit SampleConfig.swift with the required values and rename it to Config.swift (offical github API doc of reddit)
 
 ## Run tests
 
-cooming soon
+Local run tests
+
+    # First - manually boot iOS simulator e.g. iPhone 8 Plus 11.4
+    cd ~/beam_xcuitest_demo
+    xcodebuild -scheme "Xcode9-XCTest" -destination 'platform=iOS Simulator,name=iPhone 8 Plus,OS=11.4' build test CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
+
+
+Run tests from CI
+    
+    bash ./ci/update.sh ${UPD_HOMEBREW} ${UPD_CARTHAGE} ${UPD_PODS} ${UPD_ALLURE} ${UPD_GEM}
+    bash ./ci/start,sh ${DEVICE} ${HEADLESS}
+    

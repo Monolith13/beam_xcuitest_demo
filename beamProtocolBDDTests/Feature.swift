@@ -8,5 +8,5 @@ import Foundation
 import XCTest
 
 protocol Feature {
-    func givenILaunchAppInCleanState()
+    func testApp()
 }

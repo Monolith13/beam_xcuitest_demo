@@ -11,6 +11,10 @@ This project contain iOS native UI-test for [Beam](https://beamreddit.com) app.
 
 ## Preparation
 
+* Install xcfit with this command
+
+	sudo gem install xcfit
+
 * Install carthage from homebrew
 * Install allure report from homebrew
 * Install bundler gem and gems from bundle

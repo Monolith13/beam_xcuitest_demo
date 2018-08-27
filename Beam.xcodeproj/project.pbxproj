@@ -94,11 +94,6 @@
 		0C056FB91D82BD6800E32FB3 /* Snoo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0C056FAC1D82BD6800E32FB3 /* Snoo.xcdatamodeld */; };
 		0C056FBA1D82BDA300E32FB3 /* Snoo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C24FE861D82B7BD00CCBF93 /* Snoo.framework */; };
 		0C056FBB1D82BDA300E32FB3 /* Snoo.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0C24FE861D82B7BD00CCBF93 /* Snoo.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		0C056FE31D82BE6100E32FB3 /* Authentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C056FDD1D82BE6100E32FB3 /* Authentication.swift */; };
-		0C056FE51D82BE6100E32FB3 /* Parsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C056FDF1D82BE6100E32FB3 /* Parsing.swift */; };
-		0C056FE61D82BE6100E32FB3 /* Subreddits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C056FE01D82BE6100E32FB3 /* Subreddits.swift */; };
-		0C056FE71D82BE6100E32FB3 /* SubredditsResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = 0C056FE11D82BE6100E32FB3 /* SubredditsResponse.json */; };
-		0C056FE81D82BE6100E32FB3 /* TestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C056FE21D82BE6100E32FB3 /* TestController.swift */; };
 		0C0779D81BE3792F006D1D8B /* RefreshNotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0779D71BE3792F006D1D8B /* RefreshNotificationView.swift */; };
 		0C0779E61BE37F05006D1D8B /* NavigationBarNotificationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0779E51BE37F05006D1D8B /* NavigationBarNotificationHandler.swift */; };
 		0C09F7B61CD21A6C00E89B1A /* ImgurManagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C09F7B51CD21A6C00E89B1A /* ImgurManagerViewController.swift */; };
@@ -135,7 +130,6 @@
 		0C1BFF821BFDFAFE00404821 /* ReplyBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C1BFF811BFDFAFE00404821 /* ReplyBarView.xib */; };
 		0C1BFF961BFE2A5800404821 /* NSRange+Offset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1BFF951BFE2A5800404821 /* NSRange+Offset.swift */; };
 		0C1D2D171D40D1A100C05822 /* FontSizeOptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1D2D161D40D1A100C05822 /* FontSizeOptionsViewController.swift */; };
-		0C24FE901D82B7BE00CCBF93 /* Snoo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C24FE861D82B7BD00CCBF93 /* Snoo.framework */; };
 		0C24FFB01D82B82D00CCBF93 /* SnooOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C24FFA61D82B82D00CCBF93 /* SnooOperation.swift */; };
 		0C24FFB11D82B82D00CCBF93 /* NSURLExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C24FFA71D82B82D00CCBF93 /* NSURLExtensions.swift */; };
 		0C24FFB21D82B82D00CCBF93 /* SnooError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C24FFA81D82B82D00CCBF93 /* SnooError.swift */; };
@@ -202,7 +196,6 @@
 		0C2F1DF91D708C1700BB6ED1 /* Mixpanel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C2F1DEA1D708C0C00BB6ED1 /* Mixpanel.framework */; };
 		0C2F1DFA1D708C1700BB6ED1 /* Mixpanel.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0C2F1DEA1D708C0C00BB6ED1 /* Mixpanel.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		0C2F1DFE1D708C8000BB6ED1 /* MixpanelAnalyticsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C2F1DFD1D708C8000BB6ED1 /* MixpanelAnalyticsService.swift */; };
-		0C3091FC1D82CBCD00E0BECC /* CherryKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C3091F21D82CBCD00E0BECC /* CherryKit.framework */; };
 		0C30923F1D82CBEB00E0BECC /* Cherry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C30920F1D82CBEB00E0BECC /* Cherry.swift */; };
 		0C3092401D82CBEB00E0BECC /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3092101D82CBEB00E0BECC /* Task.swift */; };
 		0C3092411D82CBEB00E0BECC /* AuthorizationTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3092111D82CBEB00E0BECC /* AuthorizationTask.swift */; };
@@ -218,7 +211,6 @@
 		0C3092591D82CBEB00E0BECC /* SubredditMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C30922C1D82CBEB00E0BECC /* SubredditMetadata.swift */; };
 		0C30925A1D82CBEB00E0BECC /* MultiredditMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C30922D1D82CBEB00E0BECC /* MultiredditMetadata.swift */; };
 		0C3092641D82CBEB00E0BECC /* CherryKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C30923D1D82CBEB00E0BECC /* CherryKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0C3092681D82CC3E00E0BECC /* CherryKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3092661D82CC3E00E0BECC /* CherryKitTests.swift */; };
 		0C30926A1D82CD3100E0BECC /* CherryKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C3091F21D82CBCD00E0BECC /* CherryKit.framework */; };
 		0C30926B1D82CD3100E0BECC /* CherryKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0C3091F21D82CBCD00E0BECC /* CherryKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		0C30B3B51C2804B8008D59FE /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C30B3B41C2804B8008D59FE /* CommentCell.swift */; };
@@ -417,7 +409,6 @@
 		0CF9B76F1CB2612A00B0431C /* ImageEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF9B76E1CB2612A00B0431C /* ImageEditViewController.swift */; };
 		0CFAA84E1E01925100CB9154 /* User+Operations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CFAA84D1E01925100CB9154 /* User+Operations.swift */; };
 		0CFAA8681E019BD600CB9154 /* RedditMessageComposeRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CFAA8671E019BD600CB9154 /* RedditMessageComposeRequest.swift */; };
-		0CFD00211F1F6748008B805D /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C87F9D81E4A00540091378B /* Settings.swift */; };
 		0CFE5AEB1C08A43A009DF1CE /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CFE5AEA1C08A43A009DF1CE /* AudioToolbox.framework */; };
 		0CFE5AFA1C08A58A009DF1CE /* tap.caf in Resources */ = {isa = PBXBuildFile; fileRef = 0CE06CB81C08A33D0001EDB6 /* tap.caf */; };
 		0CFE5AFB1C08A58A009DF1CE /* upvote.caf in Resources */ = {isa = PBXBuildFile; fileRef = 0CE06CB91C08A33D0001EDB6 /* upvote.caf */; };
@@ -511,9 +502,9 @@
 		F56566AB212FCADD000A92D5 /* Feature.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56566AA212FCADD000A92D5 /* Feature.swift */; };
 		F56566AE212FCADD000A92D5 /* FeatureSteps.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56566AD212FCADD000A92D5 /* FeatureSteps.swift */; };
 		F56566B1212FCADD000A92D5 /* FeatureElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56566B0212FCADD000A92D5 /* FeatureElements.swift */; };
-		F56566B4212FCADD000A92D5 /* FeatureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56566B3212FCADD000A92D5 /* FeatureTests.swift */; };
 		F56566B7212FCADD000A92D5 /* UITestBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56566B6212FCADD000A92D5 /* UITestBase.swift */; };
 		F56566BF212FCCA4000A92D5 /* XCFit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F56566BE212FCCA4000A92D5 /* XCFit.framework */; };
+		F577E336213411DE0072E8A9 /* FeatureTabs.swift in Sources */ = {isa = PBXBuildFile; fileRef = F577E335213411DE0072E8A9 /* FeatureTabs.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -558,20 +549,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 0C7FAD311BECBE9D0049C011;
 			remoteInfo = Trekker;
-		};
-		0C24FE911D82B7BE00CCBF93 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7660740B1B38073100F4C777 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0C24FE851D82B7BD00CCBF93;
-			remoteInfo = Snoo;
-		};
-		0C24FE931D82B7BE00CCBF93 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7660740B1B38073100F4C777 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 766074121B38073100F4C777;
-			remoteInfo = beam;
 		};
 		0C26052B1CAD1D510078ABF6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -628,20 +605,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 7C170C291A4A02F500D9E0F2;
 			remoteInfo = Mixpanel;
-		};
-		0C3091FD1D82CBCD00E0BECC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7660740B1B38073100F4C777 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0C3091F11D82CBCD00E0BECC;
-			remoteInfo = CherryKit;
-		};
-		0C3091FF1D82CBCD00E0BECC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7660740B1B38073100F4C777 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 766074121B38073100F4C777;
-			remoteInfo = beam;
 		};
 		0C30926C1D82CD3100E0BECC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -805,13 +768,6 @@
 			remoteInfo = WebImage;
 		};
 		F56566B9212FCADD000A92D5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7660740B1B38073100F4C777 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 766074121B38073100F4C777;
-			remoteInfo = beam;
-		};
-		F56AC8DF212A42F2001AE153 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 7660740B1B38073100F4C777 /* Project object */;
 			proxyType = 1;
@@ -990,7 +946,6 @@
 		0C1BFF951BFE2A5800404821 /* NSRange+Offset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSRange+Offset.swift"; sourceTree = "<group>"; };
 		0C1D2D161D40D1A100C05822 /* FontSizeOptionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontSizeOptionsViewController.swift; sourceTree = "<group>"; };
 		0C24FE861D82B7BD00CCBF93 /* Snoo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Snoo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0C24FE8F1D82B7BE00CCBF93 /* SnooTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnooTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C24FFA61D82B82D00CCBF93 /* SnooOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnooOperation.swift; sourceTree = "<group>"; };
 		0C24FFA71D82B82D00CCBF93 /* NSURLExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSURLExtensions.swift; sourceTree = "<group>"; };
 		0C24FFA81D82B82D00CCBF93 /* SnooError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnooError.swift; sourceTree = "<group>"; };
@@ -1056,7 +1011,6 @@
 		0C2F1DD81D708C0C00BB6ED1 /* Mixpanel.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Mixpanel.xcodeproj; path = Mixpanel/Mixpanel.xcodeproj; sourceTree = "<group>"; };
 		0C2F1DFD1D708C8000BB6ED1 /* MixpanelAnalyticsService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MixpanelAnalyticsService.swift; sourceTree = "<group>"; };
 		0C3091F21D82CBCD00E0BECC /* CherryKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CherryKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0C3091FB1D82CBCD00E0BECC /* CherryKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CherryKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C30920F1D82CBEB00E0BECC /* Cherry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cherry.swift; sourceTree = "<group>"; };
 		0C3092101D82CBEB00E0BECC /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		0C3092111D82CBEB00E0BECC /* AuthorizationTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthorizationTask.swift; sourceTree = "<group>"; };
@@ -1365,11 +1319,10 @@
 		F56566AA212FCADD000A92D5 /* Feature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feature.swift; sourceTree = "<group>"; };
 		F56566AD212FCADD000A92D5 /* FeatureSteps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureSteps.swift; sourceTree = "<group>"; };
 		F56566B0212FCADD000A92D5 /* FeatureElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureElements.swift; sourceTree = "<group>"; };
-		F56566B3212FCADD000A92D5 /* FeatureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureTests.swift; sourceTree = "<group>"; };
 		F56566B6212FCADD000A92D5 /* UITestBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITestBase.swift; sourceTree = "<group>"; };
 		F56566B8212FCADD000A92D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F56566BE212FCCA4000A92D5 /* XCFit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCFit.framework; path = Carthage/Build/iOS/XCFit.framework; sourceTree = "<group>"; };
-		F56AC8DA212A42F2001AE153 /* beamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = beamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F577E335213411DE0072E8A9 /* FeatureTabs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureTabs.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1377,14 +1330,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0C24FE8C1D82B7BE00CCBF93 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0C24FE901D82B7BE00CCBF93 /* Snoo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1399,14 +1344,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0C3091F81D82CBCD00E0BECC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0C3091FC1D82CBCD00E0BECC /* CherryKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1456,13 +1393,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F56566BF212FCCA4000A92D5 /* XCFit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F56AC8D7212A42F2001AE153 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2754,10 +2684,7 @@
 				7668266B1B84808000647A30 /* RedditMarkdownKit.framework */,
 				0C26055A1CAD74280078ABF6 /* ImgurKit.framework */,
 				0C24FE861D82B7BD00CCBF93 /* Snoo.framework */,
-				0C24FE8F1D82B7BE00CCBF93 /* SnooTests.xctest */,
 				0C3091F21D82CBCD00E0BECC /* CherryKit.framework */,
-				0C3091FB1D82CBCD00E0BECC /* CherryKitTests.xctest */,
-				F56AC8DA212A42F2001AE153 /* beamUITests.xctest */,
 				F56566A5212FCADD000A92D5 /* beamProtocolBDDTests.xctest */,
 			);
 			name = Products;
@@ -2838,7 +2765,6 @@
 				F56566AC212FCADD000A92D5 /* StepDefinitions */,
 				F56566AF212FCADD000A92D5 /* XCUIElements */,
 				F56566B2212FCADD000A92D5 /* Tests */,
-				F56566B5212FCADD000A92D5 /* Common */,
 			);
 			path = beamProtocolBDDTests;
 			sourceTree = "<group>";
@@ -2870,17 +2796,10 @@
 		F56566B2212FCADD000A92D5 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				F56566B3212FCADD000A92D5 /* FeatureTests.swift */,
+				F56566B6212FCADD000A92D5 /* UITestBase.swift */,
+				F577E335213411DE0072E8A9 /* FeatureTabs.swift */,
 			);
 			name = Tests;
-			sourceTree = "<group>";
-		};
-		F56566B5212FCADD000A92D5 /* Common */ = {
-			isa = PBXGroup;
-			children = (
-				F56566B6212FCADD000A92D5 /* UITestBase.swift */,
-			);
-			name = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -2939,25 +2858,6 @@
 			productReference = 0C24FE861D82B7BD00CCBF93 /* Snoo.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		0C24FE8E1D82B7BE00CCBF93 /* SnooTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0C24FEB51D82B7BE00CCBF93 /* Build configuration list for PBXNativeTarget "SnooTests" */;
-			buildPhases = (
-				0C24FE8B1D82B7BE00CCBF93 /* Sources */,
-				0C24FE8C1D82B7BE00CCBF93 /* Frameworks */,
-				0C24FE8D1D82B7BE00CCBF93 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0C24FE921D82B7BE00CCBF93 /* PBXTargetDependency */,
-				0C24FE941D82B7BE00CCBF93 /* PBXTargetDependency */,
-			);
-			name = SnooTests;
-			productName = SnooTests;
-			productReference = 0C24FE8F1D82B7BE00CCBF93 /* SnooTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		0C2605591CAD74280078ABF6 /* ImgurKit */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0C2605631CAD74290078ABF6 /* Build configuration list for PBXNativeTarget "ImgurKit" */;
@@ -2993,25 +2893,6 @@
 			productName = CherryKit;
 			productReference = 0C3091F21D82CBCD00E0BECC /* CherryKit.framework */;
 			productType = "com.apple.product-type.framework";
-		};
-		0C3091FA1D82CBCD00E0BECC /* CherryKitTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0C30920C1D82CBCD00E0BECC /* Build configuration list for PBXNativeTarget "CherryKitTests" */;
-			buildPhases = (
-				0C3091F71D82CBCD00E0BECC /* Sources */,
-				0C3091F81D82CBCD00E0BECC /* Frameworks */,
-				0C3091F91D82CBCD00E0BECC /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0C3091FE1D82CBCD00E0BECC /* PBXTargetDependency */,
-				0C3092001D82CBCD00E0BECC /* PBXTargetDependency */,
-			);
-			name = CherryKitTests;
-			productName = CherryKitTests;
-			productReference = 0C3091FB1D82CBCD00E0BECC /* CherryKitTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		766074121B38073100F4C777 /* beam */ = {
 			isa = PBXNativeTarget;
@@ -3085,26 +2966,6 @@
 			productReference = F56566A5212FCADD000A92D5 /* beamProtocolBDDTests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
-		F56AC8D9212A42F2001AE153 /* beamUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F56AC8E1212A42F2001AE153 /* Build configuration list for PBXNativeTarget "beamUITests" */;
-			buildPhases = (
-				EB242CBE7987D2B0ED941BBE /* [CP] Check Pods Manifest.lock */,
-				F56AC8D6212A42F2001AE153 /* Sources */,
-				F56AC8D7212A42F2001AE153 /* Frameworks */,
-				F56AC8D8212A42F2001AE153 /* Resources */,
-				52DDA40190AB04F5C2161616 /* [CP] Embed Pods Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F56AC8E0212A42F2001AE153 /* PBXTargetDependency */,
-			);
-			name = beamUITests;
-			productName = beamUITests;
-			productReference = F56AC8DA212A42F2001AE153 /* beamUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -3120,11 +2981,6 @@
 						DevelopmentTeam = N4KR5KV52L;
 						LastSwiftMigration = 0940;
 					};
-					0C24FE8E1D82B7BE00CCBF93 = {
-						CreatedOnToolsVersion = 7.3.1;
-						LastSwiftMigration = 0940;
-						TestTargetID = 766074121B38073100F4C777;
-					};
 					0C2605591CAD74280078ABF6 = {
 						CreatedOnToolsVersion = 7.3;
 						DevelopmentTeam = N4KR5KV52L;
@@ -3134,11 +2990,6 @@
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = N4KR5KV52L;
 						LastSwiftMigration = 0940;
-					};
-					0C3091FA1D82CBCD00E0BECC = {
-						CreatedOnToolsVersion = 7.3.1;
-						LastSwiftMigration = 0940;
-						TestTargetID = 766074121B38073100F4C777;
 					};
 					766074121B38073100F4C777 = {
 						CreatedOnToolsVersion = 7.0;
@@ -3167,13 +3018,6 @@
 					};
 					F56566A4212FCADD000A92D5 = {
 						CreatedOnToolsVersion = 9.4.1;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 766074121B38073100F4C777;
-					};
-					F56AC8D9212A42F2001AE153 = {
-						CreatedOnToolsVersion = 9.4.1;
-						DevelopmentTeam = MGB98L2Y6W;
-						LastSwiftMigration = 0940;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 766074121B38073100F4C777;
 					};
@@ -3234,10 +3078,7 @@
 				7668266A1B84808000647A30 /* RedditMarkdownKit */,
 				0C2605591CAD74280078ABF6 /* ImgurKit */,
 				0C24FE851D82B7BD00CCBF93 /* Snoo */,
-				0C24FE8E1D82B7BE00CCBF93 /* SnooTests */,
 				0C3091F11D82CBCD00E0BECC /* CherryKit */,
-				0C3091FA1D82CBCD00E0BECC /* CherryKitTests */,
-				F56AC8D9212A42F2001AE153 /* beamUITests */,
 				F56566A4212FCADD000A92D5 /* beamProtocolBDDTests */,
 			);
 		};
@@ -3430,14 +3271,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0C24FE8D1D82B7BE00CCBF93 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0C056FE71D82BE6100E32FB3 /* SubredditsResponse.json in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		0C2605581CAD74280078ABF6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -3446,13 +3279,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		0C3091F01D82CBCD00E0BECC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0C3091F91D82CBCD00E0BECC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -3536,13 +3362,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F56AC8D8212A42F2001AE153 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
@@ -3573,42 +3392,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "if [ \"${CONFIGURATION}\" == \"Debug\" ]; then\n    if [ -z \"$CI\" ]; then\n        if which swiftlint >/dev/null; then\n            swiftlint --config \"${SRCROOT}/.swiftlint.yml\"\n        else\n            echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\n        fi\n    fi\nelse\n    echo \"Info: As we're not building for Debug, no SwiftLint is running.\"\nfi\n\n\n";
-		};
-		52DDA40190AB04F5C2161616 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-beamUITests/Pods-beamUITests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/XCFit/XCFit.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XCFit.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-beamUITests/Pods-beamUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		EB242CBE7987D2B0ED941BBE /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-beamUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
 		};
 		F56566C0212FCCC1000A92D5 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -3736,18 +3519,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0C24FE8B1D82B7BE00CCBF93 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0C056FE51D82BE6100E32FB3 /* Parsing.swift in Sources */,
-				0C056FE31D82BE6100E32FB3 /* Authentication.swift in Sources */,
-				0C056FE61D82BE6100E32FB3 /* Subreddits.swift in Sources */,
-				0C056FE81D82BE6100E32FB3 /* TestController.swift in Sources */,
-				0CFD00211F1F6748008B805D /* Settings.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		0C2605551CAD74280078ABF6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -3784,14 +3555,6 @@
 				0C3092591D82CBEB00E0BECC /* SubredditMetadata.swift in Sources */,
 				0C3092411D82CBEB00E0BECC /* AuthorizationTask.swift in Sources */,
 				0C30923F1D82CBEB00E0BECC /* Cherry.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0C3091F71D82CBCD00E0BECC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0C3092681D82CC3E00E0BECC /* CherryKitTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4096,18 +3859,11 @@
 				F56566B1212FCADD000A92D5 /* FeatureElements.swift in Sources */,
 				F56566B7212FCADD000A92D5 /* UITestBase.swift in Sources */,
 				F56566AB212FCADD000A92D5 /* Feature.swift in Sources */,
-				F56566B4212FCADD000A92D5 /* FeatureTests.swift in Sources */,
+				F577E336213411DE0072E8A9 /* FeatureTabs.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		F56566A1212FCADD000A92D5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F56AC8D6212A42F2001AE153 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -4132,16 +3888,6 @@
 			name = Trekker;
 			targetProxy = 0C0B1B651F6198B300E74436 /* PBXContainerItemProxy */;
 		};
-		0C24FE921D82B7BE00CCBF93 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 0C24FE851D82B7BD00CCBF93 /* Snoo */;
-			targetProxy = 0C24FE911D82B7BE00CCBF93 /* PBXContainerItemProxy */;
-		};
-		0C24FE941D82B7BE00CCBF93 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 766074121B38073100F4C777 /* beam */;
-			targetProxy = 0C24FE931D82B7BE00CCBF93 /* PBXContainerItemProxy */;
-		};
 		0C2605431CAD1D5D0078ABF6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AssetsPickerController;
@@ -4156,16 +3902,6 @@
 			isa = PBXTargetDependency;
 			name = Mixpanel;
 			targetProxy = 0C2F1DFB1D708C1700BB6ED1 /* PBXContainerItemProxy */;
-		};
-		0C3091FE1D82CBCD00E0BECC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 0C3091F11D82CBCD00E0BECC /* CherryKit */;
-			targetProxy = 0C3091FD1D82CBCD00E0BECC /* PBXContainerItemProxy */;
-		};
-		0C3092001D82CBCD00E0BECC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 766074121B38073100F4C777 /* beam */;
-			targetProxy = 0C3091FF1D82CBCD00E0BECC /* PBXContainerItemProxy */;
 		};
 		0C30926D1D82CD3100E0BECC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -4201,11 +3937,6 @@
 			isa = PBXTargetDependency;
 			target = 766074121B38073100F4C777 /* beam */;
 			targetProxy = F56566B9212FCADD000A92D5 /* PBXContainerItemProxy */;
-		};
-		F56AC8E0212A42F2001AE153 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 766074121B38073100F4C777 /* beam */;
-			targetProxy = F56AC8DF212A42F2001AE153 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -4301,37 +4032,6 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		0C24FE9F1D82B7BE00CCBF93 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ENABLE_MODULES = YES;
-				INFOPLIST_FILE = SnooTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.madeawkward.SnooTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/beam.app/beam";
-			};
-			name = Debug;
-		};
-		0C24FEA01D82B7BE00CCBF93 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ENABLE_MODULES = YES;
-				INFOPLIST_FILE = SnooTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.madeawkward.SnooTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/beam.app/beam";
 			};
 			name = Release;
 		};
@@ -4440,37 +4140,6 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		0C30920D1D82CBCD00E0BECC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ENABLE_MODULES = YES;
-				INFOPLIST_FILE = CherryKitTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.madeawkward.CherryKitTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/beam.app/beam";
-			};
-			name = Debug;
-		};
-		0C30920E1D82CBCD00E0BECC /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ENABLE_MODULES = YES;
-				INFOPLIST_FILE = CherryKitTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.madeawkward.CherryKitTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/beam.app/beam";
 			};
 			name = Release;
 		};
@@ -4774,60 +4443,6 @@
 			};
 			name = Release;
 		};
-		F56AC8E2212A42F2001AE153 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = MGB98L2Y6W;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = beamUITests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ta.beam.xctest.beamUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OBJC_BRIDGING_HEADER = "beamUITests/beamUITests-Bridging-Header.h";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = beam;
-			};
-			name = Debug;
-		};
-		F56AC8E3212A42F2001AE153 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = MGB98L2Y6W;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = beamUITests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ta.beam.xctest.beamUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "beamUITests/beamUITests-Bridging-Header.h";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = beam;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -4836,15 +4451,6 @@
 			buildConfigurations = (
 				0C24FE9D1D82B7BE00CCBF93 /* Debug */,
 				0C24FE9E1D82B7BE00CCBF93 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		0C24FEB51D82B7BE00CCBF93 /* Build configuration list for PBXNativeTarget "SnooTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0C24FE9F1D82B7BE00CCBF93 /* Debug */,
-				0C24FEA01D82B7BE00CCBF93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4863,15 +4469,6 @@
 			buildConfigurations = (
 				0C30920A1D82CBCD00E0BECC /* Debug */,
 				0C30920B1D82CBCD00E0BECC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		0C30920C1D82CBCD00E0BECC /* Build configuration list for PBXNativeTarget "CherryKitTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0C30920D1D82CBCD00E0BECC /* Debug */,
-				0C30920E1D82CBCD00E0BECC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4908,15 +4505,6 @@
 			buildConfigurations = (
 				F56566BC212FCADD000A92D5 /* Debug */,
 				F56566BD212FCADD000A92D5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F56AC8E1212A42F2001AE153 /* Build configuration list for PBXNativeTarget "beamUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F56AC8E2212A42F2001AE153 /* Debug */,
-				F56AC8E3212A42F2001AE153 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

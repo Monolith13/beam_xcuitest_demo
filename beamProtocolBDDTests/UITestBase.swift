@@ -23,7 +23,7 @@ class UITestBase: XCFit {
             let appInfo = NSDictionary(contentsOf: appPlist) else { return nil }
         return appInfo["CFBundleShortVersionString"] as? String
     }
-    
+ 
     override func setUp() {
         super.setUp()
         
@@ -31,10 +31,9 @@ class UITestBase: XCFit {
         app.launchArguments = ["--Reset"]
         continueAfterFailure = false
         launchApp(with: defaultLaunchArguments)
+        app.buttons["Explore without account"].tap()
         
-        // app.buttons["Explore without account"].tap()
-        
-        // Press "Allow" button from alert
+        // Press "Allow" button from alert of permission
         addUIInterruptionMonitor(withDescription: "Notification Permissions") { (alert) -> Bool in
             let button = alert.buttons["Allow"]
             if button.exists {
@@ -56,6 +55,7 @@ class UITestBase: XCFit {
         (defaultLaunchArguments + launchArguments).forEach { app.launchArguments += $0 }
         app.launch()
     }
+    
 }
 
 extension UITestBase {
@@ -66,3 +66,4 @@ extension UITestBase {
         }
     }
 }
+
